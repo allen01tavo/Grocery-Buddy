@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/search_Store"
+    	android:title="@string/search_btn_label"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item android:id="@+id/about"
+    	android:title="@string/about_label"
+        android:orderInCategory="100"
+        android:showAsAction="never" android:actionLayout="@layout/about_layout" android:enabled="true"/>    
+</menu>
